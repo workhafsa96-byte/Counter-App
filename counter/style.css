@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card add */
+
+.card {
+    background: linear-gradient(135deg, #ffffff, #dfe9f3);
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 250px;
+}
+
+/* Container style */
+body > * {
+    text-align: center;
+}
+
+#counter {
+    font-size: 80px;
+    color: #333; /* white se change kiya taake card pe visible ho */
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Increment button */
+button:nth-of-type(1) {
+    background-color: #28a745;
+    color: white;
+}
+
+button:nth-of-type(1):hover {
+    background-color: #218838;
+}
+
+/* Decrement button */
+button:nth-of-type(2) {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:nth-of-type(2):hover {
+    background-color: #c82333;
+}
+
+/* Reset button */
+button:nth-of-type(3) {
+    background-color: #ffc107;
+    color: black;
+}
+
+button:nth-of-type(3):hover {
+    background-color: #e0a800;
+}
+
+/* Button click effect */
+button:active {
+    transform: scale(0.95);
+}
